@@ -1,17 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Redirecting...</title>
-    <!-- 1. The Meta Refresh handles the instant browser redirect -->
-    <meta http-equiv="refresh" content="0; URL=https://kamvasa.com">
-    <!-- 2. The Canonical link tells search engines where the true page lives -->
-    <link rel="canonical" href="https://kamvasa.com">
-  <script>
-    window.location.replace("https://kamvasa.com" + window.location.pathname);
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kamvasa – Redirecting...</title>
+
+    <!-- Redirect after 0 seconds -->
+    <meta http-equiv="refresh" content="0; url=https://kamvasa.com/">
+
+    <link rel="canonical" href="https://kamvasa.com/">
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #f7f7f7;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #666;
+        }
+
+        a {
+            color: #1a73e8;
+        }
+    </style>
 </head>
+
 <body>
-    <p></p>
+
+    <div class="container">
+        <h1>Kamvasa</h1>
+        <p>We have moved to our new website.</p>
+        <p>
+            Redirecting you automatically...
+        </p>
+
+        <p>
+            If you are not redirected,
+            <a href="https://kamvasa.com/">click here</a>.
+        </p>
+    </div>
+
 </body>
 </html>
